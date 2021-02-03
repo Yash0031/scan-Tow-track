@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
 
+
     <TextView
         android:id="@+id/towingDetails"
         app:layout_constraintTop_toBottomOf="@id/text"
@@ -40,5 +41,38 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/owname"
+        android:layout_width="139dp"
+        android:layout_height="28dp"
+        android:text="TextView"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/towingDetails" />
+
+    <TextView
+        android:id="@+id/vehno"
+        android:layout_width="147dp"
+        android:text="TextView"
+        android:layout_height="26dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/owname" />
+
+    <TextView
+        android:id="@+id/fine"
+        android:layout_width="141dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehno" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
